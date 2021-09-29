@@ -68,6 +68,9 @@ char *get_next_line(int fd)
 	char *temp;
     int bytes_read;
     temp = "";
+	// int index;
+	// char *append = NULL;
+	// index = 0;
     //while(bytes_read > 0) (?)
     while (!ft_strrchr(buf, '\n'))
     {
